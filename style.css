@@ -1,0 +1,98 @@
+.teachers {
+    margin: 0.625rem;
+    padding: 1.25rem;
+}
+
+.tcard {
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    background-color: #333;
+    width: 250px;
+    height: auto;
+    border: 3px solid hsl(0, 0%, 25%);
+    border-radius: 35px;
+    padding: 20px;
+    margin: 5px auto;
+    text-align: center;
+    flex-basis: 2;
+    margin-bottom: 100px;
+    cursor: default;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgb(0, 0, 0) 1px 1px;
+}
+
+.teachers h2 {
+    text-align: center;
+    margin: 1.25rem;
+    text-transform: uppercase;
+}
+
+.teacher-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.teacher-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+}
+
+.tcard h3 {
+    margin-top: 10px;
+    color: white;
+}
+
+.tcard p {
+    color: white;
+    margin-top: 10px;
+}
+
+.tcard:hover {
+    transform: translateY(-20px);
+}
+
+.teahcer-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.teacher-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+}
+.back {
+    display: block;
+    margin: 5px auto;
+    width: fit-content;
+    border: 1px solid #00FFFF;
+    padding: 14px 50px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background 0.5s ease-in-out;
+    font-weight: bold;
+    background-color: black;
+}
+
+.back:hover {
+    background: #00FFFF;
+}
+a {
+    text-decoration: none;
+}
