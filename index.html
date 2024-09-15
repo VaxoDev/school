@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced School Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header class="header">
+        <nav class="container">
+            <div class="logo">
+                <img src="assets/logo.jpg" alt="School Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">მთავარი</a></li>
+                <li><a href="#about">შესახებ</a></li>
+                <li><a href="#academics">აკადემიკა</a></li>
+                <li><a href="#blog">ბლოგი</a></li>
+                <li><a href="#successful-kids">წარმატებული მოსწავლეები</a></li>
+                <li><a href="#teachers">მასწავლებლები</a></li>
+                <li><a href="#gallery">გალერეა</a></li>
+                <li><a href="#contact">დაგვიკავშირდით</a></li>
+            </ul>
+            <button class="theme-toggle"><i class='bx bx-moon'></i></button>
+            <button class="menu-toggle"><i class='bx bx-menu'></i></button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>რევაზ მუმლაძის სახელობის N7 სკოლა</h1>
+            <p>*სკოლის სლოგანი*</p>
+            <a href="#about" class="btn">ჩვენს შესახებ</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>ჩვენი სკოლის შესახებ</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores maiores obcaecati labore
+                        dicta quasi saepe inventore, eligendi explicabo libero aut architecto voluptatum optio
+                        reprehenderit recusandae nobis dolor nemo ad sapiente.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet harum, aliquam sunt, culpa vitae
+                        eius quas ut repudiandae quia quisquam dolore consequatur. Quaerat aspernatur dolores sed
+                        expedita, molestias nihil reprehenderit!</p>
+                </div>
+                <div class="director">
+                    <img src="assets/directori.jpg" alt="School Director">
+                    <h3>მარეხი ქათამაძე</h3>
+                    <p>სკოლის დირექტორი</p>
+                    <p style="padding-top: 1rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                        temporibus totam tempore culpa
+                        voluptatibus eligendi quod laudantium? Possimus voluptates, commodi doloremque, veniam
+                        voluptatem ullam, quasi libero hic aliquam harum ut.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="academics" class="academics">
+        <div class="container">
+            <h2>აკადემიკა</h2>
+            <div class="class-levels">
+                <div class="class-level">
+                    <h3>კლასები 1-6</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit pariatur ratione,
+                        perspiciatis iusto doloribus quasi laudantium illum delectus eum molestiae deleniti? Quos omnis
+                        quidem aliquid, a modi asperiores tempore nobis..</p>
+                </div>
+                <div class="class-level">
+                    <h3>კლასები 7-9</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, assumenda quam nostrum quisquam
+                        fugiat eaque sint voluptatibus quo nulla, explicabo excepturi ratione atque architecto et odit
+                        enim veritatis commodi ea..</p>
+                </div>
+                <div class="class-level">
+                    <h3>კლასები 10-12</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum assumenda id ea consequatur ab
+                        sequi recusandae odit consectetur voluptates, culpa eius, eligendi consequuntur. Culpa quia
+                        adipisci eius, praesentium tempora eum?.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>ბოლო ამბები</h2>
+            <div class="blog-posts">
+                <div class="blog-post">
+                    <h3>ბლოგი 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nam non ea sunt ab, ipsa eveniet
+                        ratione modi voluptate iusto iure laboriosam, accusantium eum quaerat fugiat. Iusto repellendus
+                        odit autem..</p>
+                </div>
+                <div class="blog-post">
+                    <h3>ბლოგი 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos quia asperiores impedit aut
+                        ducimus? Sequi, iure impedit molestias, placeat consectetur quibusdam recusandae tempora laborum
+                        alias illo excepturi quis quaerat officiis..</p>
+                </div>
+                <div class="blog-post">
+                    <h3>ბლოგი 3</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium debitis accusamus tenetur
+                        quis quos, nisi porro ex temporibus assumenda est consequuntur, tempora itaque iure quibusdam
+                        esse adipisci impedit odio culpa?.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="successful-kids" class="section successful-kids">
+        <div class="container">
+            <h2>წარმატებული მოსწავლეები</h2>
+            <div class="successful-kids-slider">
+                <div class="successful-kid">
+                    <img src="https://via.placeholder.com/150" alt="Successful Kid 1">
+                    <h3>მოსწავლის სახელი</h3>
+                    <p>მიღწევა</p>
+                    <p>მიღწევა 2</p>
+                </div>
+                <div class="successful-kid">
+                    <img src="https://via.placeholder.com/150" alt="Successful Kid 2">
+                    <h3>მოსწავლის სახელი</h3>
+                    <p>მიღწევა</p>
+                    <p>მიღწევა 2</p>
+                </div>
+                <div class="successful-kid">
+                    <img src="https://via.placeholder.com/150" alt="Successful Kid 3">
+                    <h3>მოსწავლის სახელი</h3>
+                    <p>მიღწევა</p>
+                    <p>მიღწევა 2</p>
+                </div>
+                <div class="successful-kid">
+                    <img src="https://via.placeholder.com/150" alt="Successful Kid 3">
+                    <h3>მოსწავლის სახელი</h3>
+                    <p>მიღწევა</p>
+                    <p>მიღწევა 2</p>
+                </div>
+                <div class="successful-kid">
+                    <img src="https://via.placeholder.com/150" alt="Successful Kid 3">
+                    <h3>მოსწავლის სახელი</h3>
+                    <p>მიღწევა</p>
+                    <p>მიღწევა 2</p>
+                </div>
+                <div class="successful-kid">
+                    <img src="https://via.placeholder.com/150" alt="Successful Kid 3">
+                    <h3>მოსწავლის სახელი</h3>
+                    <p>მიღწევა</p>
+                    <p>მიღწევა 2</p>
+                </div>
+                <div class="successful-kid">
+                    <img src="https://via.placeholder.com/150" alt="Successful Kid 3">
+                    <h3>მოსწავლის სახელი</h3>
+                    <p>მიღწევა</p>
+                    <p>მიღწევა 2</p>
+                </div>
+                <div class="successful-kid">
+                    <img src="https://via.placeholder.com/150" alt="Successful Kid 3">
+                    <h3>მოსწავლის სახელი</h3>
+                    <p>მიღწევა</p>
+                    <p>მიღწევა 2</p>
+                </div>
+                <div class="successful-kid">
+                    <img src="https://via.placeholder.com/150" alt="Successful Kid 3">
+                    <h3>მოსწავლის სახელი</h3>
+                    <p>მიღწევა</p>
+                    <p>მიღწევა 2</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="teachers" class="section teachers">
+        <div class="container">
+            <h2>ჩვენი მასწავლებლები</h2>
+            <div class="teacher-slider">
+                <div class="teacher">
+                    <img src="https://via.placeholder.com/150" alt="Teacher 1">
+                    <h3>მასწავლებლის სახელი</h3>
+                    <p>საგანი რომელსაც ასწავლის</p>
+                </div>
+                <div class="teacher">
+                    <img src="https://via.placeholder.com/150" alt="Teacher 1">
+                    <h3>მასწავლებლის სახელი</h3>
+                    <p>საგანი რომელსაც ასწავლის</p>
+                </div>
+                <div class="teacher">
+                    <img src="https://via.placeholder.com/150" alt="Teacher 1">
+                    <h3>მასწავლებლის სახელი</h3>
+                    <p>საგანი რომელსაც ასწავლის</p>
+                </div>
+                <div class="teacher">
+                    <img src="https://via.placeholder.com/150" alt="Teacher 1">
+                    <h3>მასწავლებლის სახელი</h3>
+                    <p>საგანი რომელსაც ასწავლის</p>
+                </div>
+                <div class="teacher">
+                    <img src="https://via.placeholder.com/150" alt="Teacher 1">
+                    <h3>მასწავლებლის სახელი</h3>
+                    <p>საგანი რომელსაც ასწავლის</p>
+                </div>
+                <div class="teacher">
+                    <img src="https://via.placeholder.com/150" alt="Teacher 1">
+                    <h3>მასწავლებლის სახელი</h3>
+                    <p>საგანი რომელსაც ასწავლის</p>
+                </div>
+                <div class="teacher">
+                    <img src="https://via.placeholder.com/150" alt="Teacher 1">
+                    <h3>მასწავლებლის სახელი</h3>
+                    <p>საგანი რომელსაც ასწავლის</p>
+                </div>
+                <div class="teacher">
+                    <img src="https://via.placeholder.com/150" alt="Teacher 1">
+                    <h3>მასწავლებლის სახელი</h3>
+                    <p>საგანი რომელსაც ასწავლის</p>
+                </div>
+                <div class="teacher">
+                    <img src="https://via.placeholder.com/150" alt="Teacher 1">
+                    <h3>მასწავლებლის სახელი</h3>
+                    <p>საგანი რომელსაც ასწავლის</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>სკოლის გალერეა</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="https://via.placeholder.com/800x600" alt="Gallery 1"></div>
+                    <div class="swiper-slide"><img src="https://via.placeholder.com/800x600" alt="Gallery 2"></div>
+                    <div class="swiper-slide"><img src="https://via.placeholder.com/800x600" alt="Gallery 3"></div>
+                    <div class="swiper-slide"><img src="https://via.placeholder.com/800x600" alt="Gallery 4"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>დაგვიკავშირდით</h2>
+            <div class="contact-info">
+                <div>
+                    <h3>ტელეფონი</h3>
+                    <p>(995) 12 33 21</p>
+                </div>
+                <div>
+                    <h3>ემაილი</h3>
+                    <p>email123@gmail.com</p>
+                </div>
+                <div>
+                    <h3>მისამართი</h3>
+                    <p>425P+8XQ, რუსთაველის ქუჩა, ზესტაფონი</p>
+                </div>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.850089171934!2d43.036093252565514!3d42.1098893246168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405cb97b0cf148f3%3A0x7a1e5dbdff23bc26!2z4YOa4YOU4YOV4YOd4YOc4YOY4YOhIOGDoeGDkOGDruGDlOGDmuGDneGDkeGDmOGDoSDhg5bhg5Thg6Hhg6Lhg5Dhg6Thg53hg5zhg5jhg6Eg4oSWNyDhg6Hhg5Dhg6_hg5Dhg6Dhg50g4YOh4YOZ4YOd4YOa4YOQ!5e0!3m2!1ska!2sge!4v1726136018132!5m2!1ska!2sge"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>ხშირად დასმული კითხვები</h2>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>კითხვა</h3>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="faq-answer">
+                    <p>პასუხი.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>კითხვა</h3>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="faq-answer">
+                    <p>პასუხი.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>კითხვა</h3>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="faq-answer">
+                    <p>პასუხი.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 N7 სკოლა. ყველა უფლება დაცულია.</p>
+            <p>შექმნილია <a href="https://vakhodev.netlify.app" style="color: white; text-decoration: none;"
+                    target="_blank"><b>VakhoDev</b></a>-ის
+                მიერ</p>
+        </div>
+    </footer>
+
+    <a href="#" class="go-top"><i class='bx bx-up-arrow-alt'></i></a>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        // Mobile Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+        });
+
+        // Dark Mode Toggle
+        const themeToggle = document.querySelector('.theme-toggle');
+        const body = document.body;
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            themeToggle.innerHTML = body.classList.contains('dark-mode') ? '<i class="bx bx-sun"></i>' : '<i class="bx bx-moon"></i>';
+        });
+
+        // Custom Gallery Implementation
+        document.addEventListener('DOMContentLoaded', function () {
+            const swiperContainer = document.querySelector('.swiper-container');
+            const swiperWrapper = document.querySelector('.swiper-wrapper');
+            const slides = document.querySelectorAll('.swiper-slide');
+            const nextBtn = document.querySelector('.swiper-button-next');
+            const prevBtn = document.querySelector('.swiper-button-prev');
+            const pagination = document.querySelector('.swiper-pagination');
+            let currentIndex = 0;
+            let autoplayInterval;
+            let startX;
+            let endX;
+
+            // Set initial positions
+            slides.forEach((slide, index) => {
+                slide.style.transform = `translateX(${100 * index}%)`;
+            });
+
+            // Create pagination bullets
+            slides.forEach((_, index) => {
+                const bullet = document.createElement('span');
+                bullet.classList.add('swiper-pagination-bullet');
+                bullet.addEventListener('click', () => goToSlide(index));
+                pagination.appendChild(bullet);
+            });
+
+            function updateSlides() {
+                slides.forEach((slide, index) => {
+                    slide.style.transform = `translateX(${100 * (index - currentIndex)}%)`;
+                    slide.style.transition = 'transform 0.5s ease-in-out';
+                });
+                updatePagination();
+            }
+
+            function updatePagination() {
+                const bullets = document.querySelectorAll('.swiper-pagination-bullet');
+                bullets.forEach((bullet, index) => {
+                    bullet.classList.toggle('swiper-pagination-bullet-active', index === currentIndex);
+                });
+            }
+
+            function goToSlide(index) {
+                currentIndex = index;
+                updateSlides();
+                resetAutoplay();
+            }
+
+            function goToNextSlide() {
+                currentIndex = (currentIndex + 1) % slides.length;
+                updateSlides();
+                resetAutoplay();
+            }
+
+            function goToPrevSlide() {
+                currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+                updateSlides();
+                resetAutoplay();
+            }
+
+            function startAutoplay() {
+                autoplayInterval = setInterval(goToNextSlide, 5000); // 5000ms = 5 seconds
+            }
+
+            function resetAutoplay() {
+                clearInterval(autoplayInterval);
+                startAutoplay();
+            }
+
+            // Touch events for swiping
+            swiperContainer.addEventListener('touchstart', (e) => {
+                startX = e.touches[0].clientX;
+            });
+
+            swiperContainer.addEventListener('touchend', (e) => {
+                endX = e.changedTouches[0].clientX;
+                if (startX - endX > 50) { // Swipe left
+                    goToNextSlide();
+                } else if (endX - startX > 50) { // Swipe right
+                    goToPrevSlide();
+                }
+            });
+
+            nextBtn.addEventListener('click', goToNextSlide);
+            prevBtn.addEventListener('click', goToPrevSlide);
+
+            // Initialize the gallery
+            updateSlides();
+            startAutoplay();
+        });
+
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            const answer = item.querySelector('.faq-answer');
+            const icon = item.querySelector('.bx');
+
+            question.addEventListener('click', () => {
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                icon.classList.toggle('bx-chevron-up');
+            });
+        });
+
+        // Go to Top Button
+        const goTopBtn = document.querySelector('.go-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 100) {
+                goTopBtn.classList.add('show');
+            } else {
+                goTopBtn.classList.remove('show');
+            }
+        });
+
+        goTopBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // ScrollReveal Initialization
+        ScrollReveal().reveal('.section', {
+            delay: 200,
+            distance: '10px',
+            duration: 1000,
+            easing: 'ease-in-out',
+            origin: 'bottom',
+            reset: true
+        });
+    </script>
+</body>
+
+</html>
